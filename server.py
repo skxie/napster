@@ -92,8 +92,9 @@ class CentralServer:
 		#'''
 		return '''
 		Hi, this a p2p system which provides the following functions:
-		1. search. search the specific file to check whether it is shared in this system.
-		2. downlad. download a particular file from a specific peer.
+		1. getFullFileList. obtain the full list of the shared files in this system.
+		2. search. search the specific file to check whether it is shared in this system.
+		3. downlad. download a particular file from a specific peer.
 		'''
 	def getClientNum(self):
 		return self.num
